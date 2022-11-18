@@ -2,7 +2,7 @@
 
 #include <stm32f1xx_hal.h>
 #include <stm32f1xx_hal_gpio.h>
-/*
+
 led::led(GPIO_TypeDef * t_gpio, uint16_t t_pin): gpio(t_gpio), pin(t_pin)
 {
         // GPIO Ports Clock Enable 
@@ -47,5 +47,5 @@ void led::on()
 {
     HAL_GPIO_WritePin(led::gpio, led::pin, GPIO_PIN_SET);
 }
-*/
+
 
